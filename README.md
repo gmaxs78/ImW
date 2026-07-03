@@ -2,7 +2,9 @@
 
 Public release repository for the `ImWatch` VS Code extension.
 
-`ImWatch` is a raw image-buffer viewer for VS Code debug sessions. It lets you open memory-backed image data directly from a debuggee process, inspect it as an image, adjust layout parameters, and quickly verify whether a buffer is really `Gray`, `RGB`, `RGBA`, or `YUV420P`.
+`ImWatch` is a raw image-buffer viewer for VS Code debug sessions. It opens memory-backed image data directly from a stopped debuggee process, shows it as an image, lets you correct raw layout parameters, and helps verify whether a buffer is really `Gray`, `RGB`, `RGBA`, or `YUV420P`.
+
+![ImWatch UI](docs/imwatch-ui.png)
 
 ## What It Can Do
 
@@ -103,12 +105,6 @@ Current focus is on raw buffers:
 - `YUV420P`
 
 Auto-detection is heuristic. It works well for many practical buffers, but it is still meant as an assistant, not as a guaranteed parser.
-
-## Example Asset
-
-Example image used in the repo for buffer tests:
-
-![Example test image](docs/hopper.png)
 
 ## Current Notes
 
