@@ -22,19 +22,19 @@ Public release repository for the `ImWatch` VS Code extension.
 
 Download the current VSIX package:
 
-- [imwatch-0.0.2.vsix](https://github.com/gmaxs78/ImW/raw/main/imwatch-0.0.2.vsix)
+- [imwatch-0.0.3.vsix](https://github.com/gmaxs78/ImW/raw/main/imwatch-0.0.3.vsix)
 
 Install from VS Code:
 
 1. Open `Extensions`
 2. Open `...`
 3. Choose `Install from VSIX...`
-4. Select `imwatch-0.0.2.vsix`
+4. Select `imwatch-0.0.3.vsix`
 
 Install from CLI:
 
 ```bash
-code --install-extension imwatch-0.0.2.vsix
+code --install-extension imwatch-0.0.3.vsix
 ```
 
 ## Main Command
